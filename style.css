@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'catullregular';
+    src: url('catull-webfont.eot');
+    src: url('catull-webfont.eot?#iefix') format('embedded-opentype'),
+         url('catull-webfont.woff2') format('woff2'),
+         url('catull-webfont.woff') format('woff'),
+         url('catull-webfont.ttf') format('truetype'),
+         url('catull-webfont.svg#catullregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  position: relative;
+  height: 650px;
+}
+
+header {
+  width: 300px;
+}
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+}
+ol {
+  margin: 0;
+}
+header li {
+  padding-right: 10px;
+  display: inline;
+  list-style-type: none;
+}
+#account {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 30px;
+  width: 30px;
+}
+
+.container {
+  position: absolute;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 300px;
+  width: 923px;
+}
+#Bowie {
+  position: absolute;
+  margin-left: 350px;
+  font-family: 'catullregular';
+  font-size: 80px;
+}
+#B {
+  position: absolute;
+  top: 0;
+  color: blue;
+}
+#o {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  color: red;
+}
+#w {
+  position: absolute;
+  left: 90px;
+  top: 0;
+  color: yellow;
+}
+#i {
+  position: absolute;
+  left: 150px;
+  top: 0;
+  color: blue;
+}
+#e {
+  position: absolute;
+  left: 175px;
+  top: 0;
+  color: green;
+}
+h4 {
+  position: absolute;
+  margin-left: 350px;
+  font-size: 14px;
+  left: 150px;
+  top: 133px;
+  color: blue;
+}
+input {
+  position: absolute;
+  margin-bottom: 5px;
+}
+#search {
+  position: absolute;
+  bottom: 80px;
+  left: 200px;
+  width: 500px;
+  height: 30px;
+}
+#buttonsearch {
+  position: absolute;
+  bottom: 40px;
+  left: 300px;
+}
+#buttonchance {
+  position: absolute;
+  bottom: 40px;
+  left: 500px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 923px;
+  border-top: 1px grey solid;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #E8E8E8;
+}
+footer li {
+  padding-right: 5px;
+  display: inline;
+  list-style-type: none;
+}
+ul {
+  margin: 0;
+}
+#liste1 {
+  position: absolute;
+  width: 300px;
+  left: 0;
+  margin-right: 0;
+}
+#liste2 {
+  float: right;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
